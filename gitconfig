@@ -47,5 +47,5 @@
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-	email = olivier@observices.fr
+	email = olivier.bellier@gmail.com
 	name = Olivier Bellier
