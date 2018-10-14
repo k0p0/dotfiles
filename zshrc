@@ -30,3 +30,7 @@ export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
+
+alias sdam="ssh 'root@dam.lmdn.net'"
+alias sidf="ssh 'root@backup.lmdn.net'"
+alias slmdn="ssh 'root@lmdn.net'"
