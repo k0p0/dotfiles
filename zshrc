@@ -34,15 +34,16 @@ export PATH="./bin:${PATH}:/usr/local/sbin"
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
-export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
-export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
-export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
-<<<<<<< HEAD
 
 alias sdam="ssh 'root@dam.lmdn.net'"
 alias sidf="ssh 'root@backup.lmdn.net'"
 alias slmdn="ssh 'root@lmdn.net'"
-=======
-export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
-export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
->>>>>>> e2455d7a4c0cd292742b882ca2e0ba2f49b19f9a
+
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias oxavpn='sudo openvpn --config /etc/openvpn/oxalide.ovpn'
+alias bast2='ssh obellier@bastion-pa2-01.oxalide.net'
+alias bast3='ssh obellier@bastion-pa3-01.oxalide.net'
+alias clist='clara snow list -g '\''FR Oxalide MediaPresse'\'
+
