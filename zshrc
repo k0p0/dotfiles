@@ -47,3 +47,4 @@ alias bast2='ssh obellier@bastion-pa2-01.oxalide.net'
 alias bast3='ssh obellier@bastion-pa3-01.oxalide.net'
 alias clist='clara snow list -g '\''FR Oxalide MediaPresse'\'
 
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
