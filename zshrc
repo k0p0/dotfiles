@@ -5,6 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 #ZSH_THEME="robbyrussell"
 ZSH_THEME="powerlevel9k/powerlevel9k"
 POWERLEVEL9K_MODE="nerdfont-complete"
+#POWERLEVEL9K_MODE='awesome-fontconfig'
 
 POWERLEVEL9K_DISABLE_RPROMPT=true
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
@@ -48,4 +49,7 @@ alias bast3='ssh obellier@bastion-pa3-01.oxalide.net'
 alias clist='clara snow list -g '\''FR Oxalide MediaPresse'\'
 
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
+
+source ~/.fonts/*.sh
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
